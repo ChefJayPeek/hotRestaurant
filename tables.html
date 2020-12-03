@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Restaurant!</title>
+</head>
+<body>
+    <style>
+        .container { 
+          height: 200px;
+          position: relative;
+          border: 3px solid green; 
+        }
+        
+        .center {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+    </style>
+        
+    <div class = "main">
+        <h1 style = "text-align:center;">Hot Restaurant</h1>
+        <h2 style = "text-align:center;">Current Reservations and Waiting List</h2>
+        <div class = "container">
+            <div class = "center">
+                <a href = "/reservation"><button class = "view" type = "button">Make Reservation</button></a>
+                <a href = "/"><button class = "reso" type = "button">Home</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
